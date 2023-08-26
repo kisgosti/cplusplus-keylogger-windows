@@ -57,7 +57,7 @@ string translateKey(int key) {
 	case VK_RIGHT:
 		// Right arrow
 		return "[RIGHT] ";
-	// 12 function key
+	// 12 function keys
 	case VK_F1:
 		return "[F1] ";
 	case VK_F2:
